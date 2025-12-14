@@ -1,10 +1,7 @@
 import psycopg2
 
 
-DB_URL = (
-    "postgresql://userdb_h15g_user:kE8SFJpUfjbnUo0LvvMoIaop0G6kUyvW@"
-    "dpg-d4vb93be5dus73ab4scg-a/userdb_h15g"
-)
+DB_URL = "postgresql://postgres:.QSUzFV6Fa7_-#q@db.dfrkmbswctmvlkiwluvo.supabase.co:5432/postgres"
 
 
 def get_db():
