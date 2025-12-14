@@ -10,7 +10,7 @@ CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 @app.route("/")
 def home():
-    return redirect("https://safemaster-frontend.vercel.app/")
+    return redirect("http://localhost:5173/")
 
 
 @app.route("/signin", methods=["POST"])

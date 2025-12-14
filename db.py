@@ -8,7 +8,7 @@ load_dotenv()
 
 # Prefer a full connection string (recommended for Supabase) to avoid
 # URL-encoding issues with special characters in passwords.
-DB_URL = os.getenv("SUPABASE_DB_URL")
+DB_URL = os.getenv("SUPABASE_DB_URL", "postgresql://postgres.dfrkmbswctmvlkiwluvo:.QSUzFV6Fa7_-#q@aws-1-ap-southeast-2.pooler.supabase.com:6543/postgres")
 
 # Fallback to discrete settings if a single URL isn't provided.
 DB_CONFIG = {
